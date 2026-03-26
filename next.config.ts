@@ -10,7 +10,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  allowedHosts: ['itblogmvp.pp.ua', 'www.itblogmvp.pp.ua'],
 };
 
 export default nextConfig;
