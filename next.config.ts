@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true, // рекомендується залишити
   images: {
     remotePatterns: [
       {
@@ -9,6 +10,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  allowedHosts: ['itblogmvp.pp.ua', 'www.itblogmvp.pp.ua'],
 };
 
 export default nextConfig;
